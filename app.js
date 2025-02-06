@@ -16,6 +16,9 @@ function agregarAmigo()
 
       nombreAmigos.push(cajaNombres); //agrego los nombres al array
       console.log(nombreAmigos);
+      //mostrar array de nombres
+      let listaAmigos = document.getElementById('listaAmigos');
+      listaAmigos.innerHTML = nombreAmigos;
       limpiarTextbox();
    }   
    if (nombreAmigos.length === 5) {
@@ -36,11 +39,8 @@ function sortearAmigo(){
 
    //mostrar nombre 
    let resultado = document.getElementById('resultado');
-   resultado.innerHTML = `El nombre sorteado es: ${nombreSorteado}`;
+   resultado.innerHTML = `El nombre del amigo secreto es: ${nombreSorteado}`;
 
-   //mostrar array de nombres
-   let listaAmigos = document.getElementById('listaAmigos');
-   listaAmigos.innerHTML = nombreAmigos;
    
 
 

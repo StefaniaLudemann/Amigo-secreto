@@ -134,6 +134,7 @@ ul {
     margin: 20px 0;
 }
 
+
 .result-list {
     margin-top: 15px;
     color: #05DF05;
@@ -141,6 +142,7 @@ ul {
     font-weight: bold;
     text-align: center;
 }
+
 
 /* Botón de sortear título */
 .button-draw {
