@@ -2,34 +2,39 @@
 // Aquí deberás desarrollar la lógica para resolver el problema.
 
 let nombreAmigos = [];
-let sorteoRealizado = false; 
 
 
 function agregarAmigo()
 {
  let cajaNombres = document.getElementById('amigo').value;
  if (cajaNombres == ''){
-    alert('por favor, introduzca un nombre');
+    alert('Por favor, introduzca un nombre');
     return;
  }else{
    if (nombreAmigos.length < 5){
 
       nombreAmigos.push(cajaNombres); //agrego los nombres al array
-      console.log(nombreAmigos);
-      //mostrar array de nombres
-      let listaAmigos = document.getElementById('listaAmigos');
-      listaAmigos.innerHTML = nombreAmigos;
+      let listaAmigos = document.getElementById('listaAmigos'); //mostrar array de nombres
+      listaAmigos.innerHTML = nombreAmigos.join('<br>');;
       limpiarTextbox();
-   }   
+   } 
+   }
+
    if (nombreAmigos.length === 5) {
-      document.getElementById('amigo').disabled = true; // Deshabilito botón de agregar
       
- } 
-}
+      document.getElementById('amigo').disabled = true; // Deshabilito input de agregar
+      document.getElementById('botonSorteo').disabled = false; 
+   } 
+   
+      
+  
 }
 
+
+
 function sortearAmigo(){
-   if(nombreAmigos.length === 0){
+  
+   if(nombreAmigos.length == 0){
       alert('No hay nombres para sortear');
       return;
    }
@@ -37,21 +42,21 @@ function sortearAmigo(){
    const indiceAleatorio = Math.floor(Math.random() * nombreAmigos.length);
    const nombreSorteado = nombreAmigos[indiceAleatorio];
 
-   //mostrar nombre 
+   document.getElementById('listaAmigos').innerHTML = ''; //limpio lista amigos 
+
+   //muestro nombre 
    let resultado = document.getElementById('resultado');
    resultado.innerHTML = `El nombre del amigo secreto es: ${nombreSorteado}`;
 
-   
-
-
+   // Deshabilito el botón de sortear
+   document.getElementById('botonSorteo').disabled = true;
 }
 
 function limpiarTextbox(){
    document.getElementById('amigo').value = '';
 }
 
-agregarAmigo();
-sortearAmigo();
+
 
 
 
