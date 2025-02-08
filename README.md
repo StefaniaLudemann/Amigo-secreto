@@ -2,6 +2,7 @@
 
 
 Bienvenido al proyecto Amigo-Secreto! Este repositorio esta diseñado para orientarte en su uso con mas facilidad.
+![image alt](https://github.com/StefaniaLudemann/Amigo-secreto/blob/main/appWeb.png?raw=true)
 
 ## Tabla de contenidos
 - [Acerca del proyecto](#acerca-del-proyecto)
