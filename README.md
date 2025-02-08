@@ -1,7 +1,7 @@
 # Amigo-secreto
 
 
-Bienvenido al proyecto amigo secreto! Este repositorio esta diseñado para orientarte en su uso con mas facilidad.
+:sparkles::sparkles:Bienvenido al proyecto amigo secreto! Este repositorio esta diseñado para orientarte en su uso con mas facilidad :sparkles: :sparkles:.
 ![image alt](https://github.com/StefaniaLudemann/Amigo-secreto/blob/main/appWeb.png?raw=true)
 
 ## Tabla de contenidos
@@ -44,7 +44,7 @@ Para correr la aplicacion debes seguir estos simples pasos:
     ```
 2. Abrir el navegador y dirigirse a `http://localhost:3000`.
 
-## Contribuciones
+## Contribuciones :grey_exclamation:
 Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar tan increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada.
 
 1. Haz un fork del proyecto.
@@ -54,7 +54,7 @@ Las contribuciones son lo que hace que la comunidad de código abierto sea un lu
 5. Abre un Pull Request.
 
 ## Licencia
-Este proyecto fue creado y desarrollado por Steffi Lüdemann.
+Este proyecto fue creado y desarrollado por Steffi Lüdemann :heart:.
 
 ## Contacto
 Steffi - [@steffilude](https://twitter.com/steffilude) 
