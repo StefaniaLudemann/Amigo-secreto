@@ -1,7 +1,7 @@
 # Amigo-secreto
 
 
-Bienvenido al proyecto Amigo-Secreto! Este repositorio esta diseñado para orientarte en su uso con mas facilidad.
+Bienvenido al proyecto amigo secreto! Este repositorio esta diseñado para orientarte en su uso con mas facilidad.
 ![image alt](https://github.com/StefaniaLudemann/Amigo-secreto/blob/main/appWeb.png?raw=true)
 
 ## Tabla de contenidos
@@ -14,7 +14,7 @@ Bienvenido al proyecto Amigo-Secreto! Este repositorio esta diseñado para orien
 - [Contacto](#contacto)
 
 ## Acerca del proyecto
-Amigo-Secreto es una aplicación web divertida y fácil de usar que te ayuda a organizar juegos de intercambio de regalos de manera rápida y eficiente. Ya sea para una fiesta de fin de año, un cumpleaños o cualquier reunión social, esta herramienta te permitirá seleccionar al azar a un "amigo secreto" entre un grupo de personas, haciendo que la experiencia sea más emocionante y sin complicaciones.
+Amigo secreto es una aplicación web divertida y fácil de usar que te ayuda a organizar juegos de intercambio de regalos de manera rápida y eficiente. Ya sea para una fiesta de fin de año, un cumpleaños o cualquier reunión social, esta herramienta te permitirá seleccionar al azar a un "amigo secreto" entre un grupo de personas, haciendo que la experiencia sea más emocionante y sin complicaciones.
 
 ## :hammer:Caracteristicas
 - Interfaz amigable con el usuario
