@@ -13,12 +13,12 @@ Bienvenido al projecto Amigo-Secreto! Este repositorio esta diseñado para orien
 - [Contacto](#contacto)
 
 ## Acerca del proyecto
-Amigo-secreto es una aplicacion web que facilita la tarea de elegir al azar el nombre de algun amigo. Permite insertar 5 nombres para luego devolver un nombre de manera aleatoria. 
+Amigo-Secreto es una aplicación web divertida y fácil de usar que te ayuda a organizar juegos de intercambio de regalos de manera rápida y eficiente. Ya sea para una fiesta de fin de año, un cumpleaños o cualquier reunión social, esta herramienta te permitirá seleccionar al azar a un "amigo secreto" entre un grupo de personas, haciendo que la experiencia sea más emocionante y sin complicaciones.
 
 ## :hammer:Caracteristicas
 - Interfaz amigable con el usuario
 - Recibe un total de 5 nombres
-- 
+- Selección aleatoria de un nombre.
 
 ## Instalacion
 Para correr la aplicacion debes seguir estos simples pasos:
